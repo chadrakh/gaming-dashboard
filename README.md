@@ -7,7 +7,7 @@ This project is a concept user interface, built with React, based on the popular
 - Clone repo `https://github.com/chadrakh/react-dashboard-ui.git`
 - Open in preferred IDE (I used VS Code during development)
 - Run `npm install` to download dependencies
-- Run `yarn start` || `npm start || `npx start` to start up
+- Run `yarn start` || `npm start` || `npx start` to start up
 
 In the project directory, you can run:
 
