@@ -13,9 +13,10 @@ In the project directory, you can run:
 
 ### Future Improvements
 - Mobile view implementation (focus was desktop as the concept in mind was for a desktop app)
-### - P.S. remember to add the Figma prototype that you made
 - Adding sections to split and describe home screen display
 - Implementing more components for reusable pieces such as the gaming grids
 - Adding user settings section
 - Adding search functionality to filter through games displayed
 - Building a custom API to consume to use a pool to randomly generate games, along with their descriptions, prices, etc.
+
+#### - P.S. remember to add the Figma prototype that you made
