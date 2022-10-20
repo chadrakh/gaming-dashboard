@@ -19,4 +19,4 @@ In the project directory, you can run:
 - Adding search functionality to filter through games displayed
 - Building a custom API to consume to use a pool to randomly generate games, along with their descriptions, prices, etc.
 
-#### - P.S. remember to add the Figma prototype that you made
+#### - P.S. remember to add the Figma mockup design
