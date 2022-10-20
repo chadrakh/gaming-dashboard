@@ -1,0 +1,69 @@
+.toolbar {
+    width: 100vw;
+    height: 10vh;
+}
+
+.toolbar .container {
+    margin: 0.5rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 20rem;
+    height: 5vh;
+    top: 1rem;
+    right: 1rem;
+    font-weight: 700;
+}
+
+.toolbar .activity {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 50%;
+}
+
+.toolbar .activity p {
+    font-size: 0.8rem;
+    margin-right: 1rem;
+}
+
+.overlay-container {
+    display: flex;
+    justify-content: row;
+    align-items: center;
+}
+
+.overlay {
+    color: #ffffff;
+    font-size: 0.8rem;
+    text-align: center;
+    width: 28px;
+    height: 28px;
+    border-radius: 100%;
+    margin-left: -0.5rem;
+}
+
+.first, .second, .third {
+    border: 3px solid #061117;
+}
+
+.overlay-container .first {
+    background: url(../assets/profile1.jpg) no-repeat center/cover;
+    
+}
+
+.overlay-container .second {
+    background: url(../assets/profile2.jpg) no-repeat center/cover;
+}
+
+.overlay-container .third {
+    background: url(../assets/profile3.jpg) no-repeat center/cover;
+}
+
+.toolbar-icons {
+    width: 6rem;
+    display: flex;
+    justify-content: space-between;
+    color: #ffffff;
+}

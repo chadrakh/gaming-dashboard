@@ -1,0 +1,140 @@
+@keyframes animated_gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+p {
+    color: #ffffff;
+}
+
+.navigation {
+    color: #ffffff;
+    width: 190px;
+    height: 100%;
+    margin: 1.5rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #061117;
+}
+
+.navigation .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.navigation .logo {
+    width: 130px;
+    height: auto;
+}
+
+.nav-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 40vh;
+    margin-top: 4rem;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav-icon {
+    padding-right: 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav a {
+    color: rgba(255, 255, 255, 0.4);
+    transition: 500ms;
+}
+
+.nav a:hover {
+    color: #ffffff;
+    transition: 400ms;
+}
+
+.news {
+    background: linear-gradient(-45deg, #061117, #e73c7e, #23a6d5, #061117);
+    background-size: 400% 400%;
+    animation: animated_gradient 10s ease infinite;
+    border-radius: 1rem;
+    width: 180px;
+    height: 200px;
+    margin-top: 3rem;
+    margin-bottom: 1.3rem;
+}
+
+.news-content {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 80%;
+    transition: 200ms;
+}
+
+.news-content p {
+    font-size: 0.8rem;
+    font-weight: 700;
+    transition: 200ms;
+}
+
+.news-content:hover {
+    transition: 200ms;
+    font-size: 1.2rem;
+}
+
+.news-content:hover p {
+    transition: 200ms;
+    margin-left: 0.5rem;
+}
+
+.arrow-container {
+    text-align: right;
+    margin-top: 3.5rem;
+    margin-right: 1rem;
+    transform: rotate(-45deg);
+}
+
+.user-bottom {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 80px;
+    align-items: center;
+    border-top: 1px groove rgba(255, 255, 255, 0.4);
+    margin-bottom: 2rem;
+}
+
+.user-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.user-info p {
+    font-size: 1rem;
+}
+
+.user-icon {
+    margin-right: 1rem;
+    background: url(../assets/avatar.png) no-repeat center/cover;
+    width: 35px;
+    height: 35px;
+    border-radius: 0.5rem;
+}

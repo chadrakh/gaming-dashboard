@@ -1,0 +1,26 @@
+.grid {
+    margin: 0;
+    padding: 0;
+}
+
+.grid-container {
+    height: 30vh;
+    border-radius: 25px;
+    border: 1px solid #ffffff;
+}
+
+.grid-col-span-2 {
+    grid-column: span 2;
+}
+
+.grid-col-span-3 {
+    grid-column: span 3;
+}
+
+.grid-col-span-4 {
+    grid-column: span 4;
+}
+
+.grid-container {
+    background: url(../assets/warframe.png) no-repeat center/cover;
+}
