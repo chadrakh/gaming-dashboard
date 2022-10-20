@@ -12,6 +12,8 @@ This project is a concept user interface, built with React, based on the popular
 In the project directory, you can run:
 
 ### Future Improvements
+- Mobile view implementation (focus was desktop as the concept in mind was for a desktop app)
+### - P.S. remember to add the Figma prototype that you made
 - Adding sections to split and describe home screen display
 - Implementing more components for reusable pieces such as the gaming grids
 - Adding user settings section
