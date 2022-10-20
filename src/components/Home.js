@@ -4,13 +4,11 @@ import { FaRegShareSquare } from 'react-icons/fa';
 import { BsTag } from 'react-icons/bs';
 import { BiShoppingBag } from 'react-icons/bi';
 
-const Home = () => {
-  const username = "Chadrak";
-
+const Home = (props) => {
   return (
     <div className="home">
       <div className="user-intro bold">
-        <p>Welcome, {username}!</p>
+        <p>Welcome, {props.username}!</p>
       </div>
       <div className="home-content">
         <div className="grid-container-1 grid-col-span-2">

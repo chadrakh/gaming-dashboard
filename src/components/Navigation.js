@@ -6,9 +6,7 @@ import { FiShoppingCart, FiUsers, FiSettings } from 'react-icons/fi';
 import { VscLibrary } from 'react-icons/vsc';
 import { FaRegComment, FaArrowRight } from 'react-icons/fa';
 
-const Navigation = () => {
-  const username = "Chadrak";
-
+const Navigation = (props) => {
   return (
     <div className="navigation">
       <div className="container">
@@ -50,7 +48,7 @@ const Navigation = () => {
         <div className="user-bottom">
           <div className="user-info">
             <div className="user-icon"></div>
-            <p>{username}</p>
+            <p>{props.username}</p>
           </div>
           <FiSettings />
         </div>
