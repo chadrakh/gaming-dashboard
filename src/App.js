@@ -4,11 +4,17 @@ import Toolbar from './components/Toolbar';
 import Home from './components/Home';
 
 const App = () => {
+  const username = 'User';
+
   return (
     <div>
-      <Navigation />
+      <Navigation 
+        username={username} 
+      />
       <Toolbar />
-      <Home />
+      <Home 
+        username={username}
+      />
     </div>
   )
 }

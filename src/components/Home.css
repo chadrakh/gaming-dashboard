@@ -39,18 +39,13 @@
 
 .grid-container-1,
 .grid-container-2,
-.grid-container-3 {
+.grid-container-3,
+.grid-container-std,
+.grid-container {
     height: 30vh;
     border-radius: 25px;
     border: 1px solid #ffffff;
 }
-
-.grid-container-std {
-    height: 30vh;
-    border-radius: 25px;
-    border: 1px solid #ffffff;
-}
-
 
 .grid-container-1 {
     background: url(../assets/warframe.png) no-repeat center/cover;
@@ -135,12 +130,6 @@
 
 .marginRight {
     margin-right: 0.5rem;
-}
-
-.grid-container {
-    height: 30vh;
-    border-radius: 25px;
-    border: 1px solid #ffffff;
 }
 
 .grid-container-4 {
