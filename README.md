@@ -1,22 +1,18 @@
 ![image](https://user-images.githubusercontent.com/89146273/196841105-0d06cd0f-f73e-4f63-a519-31a54aaf140f.png)
 
-# React Dashboard UI
-This project is a concept user interface, built with React, based on the popular gaming service 'Steam'. The project is in its *early* stages, as there are quite a few features I'm looking forward to adding - but I wanted to focus on the base UI first.
+# Gaming Dashboard
+This project is a concept user interface, built with React, based on the popular gaming service 'Steam'. The project is in its *early* stages, as there are quite a few features I'm looking forward to adding - but I wanted to focus on the base interface.
 
 ## Running the application
-- Clone repo `https://github.com/chadrakh/react-dashboard-ui.git`
-- Open in preferred IDE (I used VS Code during development)
-- Run `npm install` to download dependencies
-- Run `yarn start` || `npm start` || `npx start` to start up
-
-In the project directory, you can run:
+- Clone the repository `git clone https://github.com/chadrakh/gaming-dashboard.git`
+- Start application `npm run dev`
 
 ### Future Improvements
-- Mobile view implementation (focus was desktop as the concept in mind was for a desktop app)
-- Adding sections to split and describe home screen display
-- Implementing more components for reusable pieces such as the gaming grids
-- Adding user settings section
-- Adding search functionality to filter through games displayed
-- Building a custom API to consume to use a pool to randomly generate games, along with their descriptions, prices, etc.
+- Add user settings page
+- Add dropdowns to filter games by tags, release year, developer, etc.
+- Add search functionality to find games
+- Build a Games API to populate the dashboard with data
 
-#### - P.S. remember to add the Figma mockup design
+<br/>
+
+<strong> TODO </strong> *Add wireframe and mock-up designs to documentation*
