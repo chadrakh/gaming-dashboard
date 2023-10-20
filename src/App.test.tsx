@@ -1,16 +1,13 @@
-import { render } from '@testing-library/react';
 import '@testing-library/jest-dom';
+import { render } from '@testing-library/react';
 import App from './App';
 
-test('renders component successfully', () => {
+beforeEach(() => {
     render(<App />);
-
-    expect(document.title).toBe("Gaming Dashboard");
   });
 
-// test('renders SideBar component', () => {
-//   render(<App />);
-  
-//   const sideBarComponent = screen.getByRole('sidebar');
-//   expect(sideBarComponent).toBeInTheDocument();
-// });
+describe("App", () => {
+    test("render succeeds", () => {
+        expect(document.title).toBe("Gaming Dashboard");
+    });
+});
